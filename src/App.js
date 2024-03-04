@@ -1,12 +1,12 @@
 import logo from './logo.svg';
+import profilePicture from './images/profile-picture.heic';
 import './App.css';
 
 function App() {
   return (
     <div className="app-background">
-    {/*<div className="App">*/}
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={profilePicture} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -19,7 +19,6 @@ function App() {
           Learn React
         </a>
       </header>
-    {/*</div>*/}
     </div>
   );
 }
