@@ -1,16 +1,9 @@
-// Fix the alignment on the background picture
+import roundedProfilePicture from '../../images/rounded-profile-photo.png';
+import githubLogo from '../../images/transparentGithubLogo.png';
+import linkedinLogo from '../../images/linkedinLogo.png';
+import '../../App.css';
 
-// Put down my name and contact
-
-// Put links to linkedin and github
-
-/*import profilePicture from './images/profile-picture.heic';
-import roundedProfilePicture from './images/rounded-profile-photo.png'
-import githubLogo from './images/transparentGithubLogo.png';
-import linkedinLogo from './images/linkedinLogo.png';
-import './App.css';
-
-function App() {
+function Main() {
   return (
     <div className="app-background">
       <header className="App-header">
@@ -28,14 +21,4 @@ function App() {
   );
 }
 
-export default App; */
-
-import React from "react";
-import Components from "./Components/Components.js";
-import "./App.css"
-
-function App() {
-  return <Components />;
-}
-
-export default App;
+export default Main; 
