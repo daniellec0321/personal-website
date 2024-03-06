@@ -9,7 +9,7 @@
 }
 
 .app-background {
-  background-image: url("./images/golden-dome.jpg");
+  background-image: url("./images/faded-background.png");
   min-height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -18,7 +18,6 @@
 }
 
 .App-header {
-  opacity: 1;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -28,11 +27,25 @@
   color: white;
 }
 
+.App-header h1 {
+  color: black;
+  margin: 1%;
+}
+
+.App-header h3 {
+  color: black;
+  margin: 0.5%;
+}
+
 .github-logo {
-  display:block;
-  width:200px;
-  height:39px;
+  width:100px;
+  height:60px;
   margin-top:10px;
-  background-repeat: no-repeat;
-  background-image:url('logo.svg');
+}
+
+.linkedin-logo {
+  width:60px;
+  height:60px;
+  margin-top:10px;
+  margin-right: 40px;
 }
