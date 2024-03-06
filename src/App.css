@@ -1,51 +1,242 @@
-.App {
-  text-align: center;
+/* Start full website CSS */
+body {
+  font-family: Consolas;
+  background-color: #18152e;
 }
+/* End full website CSS */
 
-.App-logo {
-  opacity: 1;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.app-background {
-  background-image: url("./images/faded-background.png");
-  min-height: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
-.App-header {
-  min-height: 100vh;
+/* NavBar CSS */
+nav {
+  padding: 0;
+  margin: 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: #cfd8dc;
 }
 
-.App-header h1 {
-  color: black;
+nav body {
+  color: #263238;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+nav li {
+  padding-left: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0d47a1;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  nav ul {
+    flex-direction: column;
+    padding-top: 0.5rem;
+  }
+  nav li {
+    padding: 0.5rem 0;
+  }
+}
+/* End NavBar CSS */
+
+/* Start CSS for all of the pages */
+.page {
+  color: #cfd8dc;
   margin: 1%;
 }
 
-.App-header h3 {
-  color: black;
-  margin: 0.5%;
+.page a:active {
+  color: #18152e;
 }
 
-.github-logo {
-  width:100px;
-  height:60px;
-  margin-top:10px;
+.page a:visited {
+  color: #18152e;
+}
+/* End CSS for all of the pages */
+
+/* CSS for the articles on the main page */
+.mainPageArticleContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.linkedin-logo {
-  width:60px;
-  height:60px;
-  margin-top:10px;
-  margin-right: 20px;
+.mainPageArticleContainer * {
+  margin: 1rem;
 }
+
+.experienceLink {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/rounded-profile-photo.png");
+}
+.experienceLink:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/rounded-profile-photo.png");
+}
+
+.educationLink {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/golden-dome.jpg");
+}
+.educationLink:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/golden-dome.jpg");
+}
+
+.projectsLink {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/kidNamedFinger.png");
+}
+.projectsLink:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/kidNamedFinger.png");
+}
+
+.experienceLink, .educationLink, .projectsLink {
+  background-position: center;
+  background-size: cover;
+  background-color: #433f5e;
+  height: 16rem;
+  width: 20rem;
+  border-radius: 5%;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1rem;
+  color: #cfd8dc !important;
+}
+
+.experienceLink:hover, .educationLink:hover, .projectsLink:hover {
+  background-color: #766fa3;
+}
+/* End CSS for the articles on the main page */
+
+/* CSS for footer content */
+.footer {
+  margin: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-element {
+  margin: 2rem;
+}
+/* End CSS for footer content */
+
+/* CSS for education content */
+.education-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.education-content * {
+  margin: 1rem;
+}
+
+.education-section {
+  background-size: cover;
+  background-color: #433f5e;
+  height: 16rem;
+  width: 20rem;
+  border-radius: 5%;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1rem;
+  color: #cfd8dc !important;
+}
+
+.education-section ul {
+  font-size: 1rem;
+  margin: 0.1rem;
+}
+
+.education-section li {
+  list-style-type: none;
+  margin: 0.5rem;
+}
+/* End CSS for education section */
+
+/* Start CSS for experience section */
+.resume-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.resume-content * {
+  margin: 1rem;
+}
+
+.resume {
+  background-size: cover;
+  background-color: #433f5e;
+  border-radius: 5%;
+  text-decoration: none;
+  color: #cfd8dc !important;
+  font-family: Consolas;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.resume:hover,
+.resume:focus {
+  background-color: #766fa3;
+}
+
+.resume:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.resume:active {
+  box-shadow: none;
+}
+
+.resume-section {
+  background-size: cover;
+  background-color: #433f5e;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 1rem;
+  margin-bottom: 4rem;
+  color: #cfd8dc !important;
+}
+
+.resume-section:nth-child(odd) {
+  background-color: #595763;
+}
+
+.resume-section * {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin: 0%;
+}
+
+.resume-section i {
+  padding: 0%;
+}
+
+.resume-section h4 {
+  text-align: justify;
+}
+/* End CSS for experience section */
