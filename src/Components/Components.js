@@ -5,10 +5,13 @@ import Projects from "./Projects/Projects.js";
 import Resume from "./Resume/Resume.js";
 import "../App.css"
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Navbar } from "./Navbar/Navbar.js";
 
 /* Routing for our app. */
 function Components() {
     return (
+      <>
+      <Navbar />
       <Router>
         <Routes>
           <Route path="/" element={<Main />} />
@@ -17,6 +20,7 @@ function Components() {
           <Route path="/resume" element={<Resume />} />
         </Routes>
       </Router>
+      </>
     );
 }
 
