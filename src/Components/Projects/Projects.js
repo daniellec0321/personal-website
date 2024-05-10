@@ -5,7 +5,9 @@ function Projects() {
   return (
     <>
     <Header />
-    <h1>Projects Page</h1>
+    <div className="page">
+      <h1>Projects Page</h1>
+    </div>
     </>
   );
 }

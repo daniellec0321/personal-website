@@ -5,7 +5,9 @@ function About() {
   return (
     <>
     <Header />
-    <h1>About Page</h1>
+    <div className="page">
+      <h1>About Page</h1>
+    </div>
     </>
   );
 }

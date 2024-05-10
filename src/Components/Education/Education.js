@@ -5,7 +5,9 @@ function Education() {
   return (
     <>
     <Header />
-    <h1>Education Page</h1>
+    <div className="page">
+      <h1>Education Page</h1>
+    </div>
     </>
   );
 }

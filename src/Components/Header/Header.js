@@ -5,12 +5,13 @@ import "../../App.css"
 function Header() {
   return (
     <nav>
-        <h2>Danielle Croft</h2>
+        <h1><Link to="/" style={{color: "#18152e"}}>Danielle Croft</Link></h1>
         <ul>
-            <li><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/education">Education</Link></li>
             <li><Link to="/projects">Projects</Link></li>
+            <li><a href="https://www.linkedin.com/in/danielle-croft-a5a2aa205/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/" target="_blank">GitHub</a></li>
         </ul>
     </nav>
   );
