@@ -1,6 +1,9 @@
+/* Start full website CSS */
 body {
   font-family: Consolas;
+  background-color: #18152e;
 }
+/* End full website CSS */
 
 /* NavBar CSS */
 nav {
@@ -19,6 +22,7 @@ nav body {
 nav ul {
   display: flex;
   list-style: none;
+  align-items: center;
 }
 
 nav li {
@@ -43,3 +47,10 @@ nav a {
   }
 }
 /* End NavBar CSS */
+
+/* Start CSS for all of the pages */
+.page {
+  color: #cfd8dc;
+  margin: 1%;
+}
+/* End CSS for all of the pages */

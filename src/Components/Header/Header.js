@@ -10,8 +10,8 @@ function Header() {
             <li><Link to="/about">About</Link></li>
             <li><Link to="/education">Education</Link></li>
             <li><Link to="/projects">Projects</Link></li>
-            <li><a href="https://www.linkedin.com/in/danielle-croft-a5a2aa205/" target="_blank">LinkedIn</a></li>
-            <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/danielle-croft-a5a2aa205/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://github.com/daniellec0321" target="_blank" rel="noreferrer">GitHub</a></li>
         </ul>
     </nav>
   );
