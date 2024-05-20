@@ -53,4 +53,62 @@ nav a {
   color: #cfd8dc;
   margin: 1%;
 }
+
+.page a:active {
+  color: #18152e;
+}
+
+.page a:visited {
+  color: #18152e;
+}
 /* End CSS for all of the pages */
+
+/* CSS for the articles on the main page */
+.mainPageArticleContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mainPageArticleContainer * {
+  margin: 1rem;
+}
+
+.aboutLink {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/rounded-profile-photo.png");
+}
+.aboutLink:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/rounded-profile-photo.png");
+}
+
+.educationLink {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/golden-dome.jpg");
+}
+.educationLink:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/golden-dome.jpg");
+}
+
+.projectsLink {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/kidNamedFinger.png");
+}
+.projectsLink:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/kidNamedFinger.png");
+}
+
+.aboutLink, .educationLink, .projectsLink {
+  background-position: center;
+  background-size: cover;
+  background-color: #433f5e;
+  height: 16rem;
+  width: 20rem;
+  border-radius: 5%;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1rem;
+  color: #cfd8dc !important;
+}
+
+.aboutLink:hover, .educationLink:hover, .projectsLink:hover {
+  background-color: #766fa3;
+}
+/* End CSS for the articles on the main page */
