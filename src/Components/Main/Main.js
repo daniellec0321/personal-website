@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer.js";
 import { Link } from "react-router-dom";
 
 function Main() {
@@ -17,6 +18,7 @@ function Main() {
         <Link to="/projects" className="projectsLink">Projects</Link>
       </div>
     </div>
+    <Footer />
     </>
   );
 }
