@@ -1,15 +1,17 @@
 import React from "react";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
-function About() {
+function Experience() {
   return (
     <>
     <Header />
     <div className="page">
-      <h1>About Page</h1>
+      <h1>Experience Page</h1>
     </div>
+    <Footer />
     </>
   );
 }
 
-export default About;
+export default Experience;

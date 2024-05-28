@@ -74,10 +74,10 @@ nav a {
   margin: 1rem;
 }
 
-.aboutLink {
+.experienceLink {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/rounded-profile-photo.png");
 }
-.aboutLink:hover {
+.experienceLink:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/rounded-profile-photo.png");
 }
 
@@ -95,7 +95,7 @@ nav a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/kidNamedFinger.png");
 }
 
-.aboutLink, .educationLink, .projectsLink {
+.experienceLink, .educationLink, .projectsLink {
   background-position: center;
   background-size: cover;
   background-color: #433f5e;
@@ -108,7 +108,7 @@ nav a {
   color: #cfd8dc !important;
 }
 
-.aboutLink:hover, .educationLink:hover, .projectsLink:hover {
+.experienceLink:hover, .educationLink:hover, .projectsLink:hover {
   background-color: #766fa3;
 }
 /* End CSS for the articles on the main page */

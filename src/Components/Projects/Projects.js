@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 function Projects() {
   return (
@@ -23,6 +24,7 @@ function Projects() {
         <li>fund comp final project maybe</li>
       </ul>
     </div>
+    <Footer />
     </>
   );
 }
