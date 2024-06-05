@@ -1,8 +1,11 @@
-import Components from "./Components/Components.js";
-import "./App.css"
+import React from 'react';
+import Components from './Components/Components';
+import './App.css';
 
 function App() {
-  return <Components />;
+  return (
+    <Components />
+  );
 }
 
 export default App;
