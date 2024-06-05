@@ -113,6 +113,7 @@ nav a {
 }
 /* End CSS for the articles on the main page */
 
+/* CSS for footer content */
 .footer {
   margin: 1rem;
   display: flex;
@@ -123,3 +124,39 @@ nav a {
 .footer-element {
   margin: 2rem;
 }
+/* End CSS for footer content */
+
+/* CSS for education content */
+.education-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.education-content * {
+  margin: 1rem;
+}
+
+.education-section {
+  background-size: cover;
+  background-color: #433f5e;
+  height: 16rem;
+  width: 20rem;
+  border-radius: 5%;
+  font-size: 2rem;
+  text-decoration: none;
+  padding: 1rem;
+  color: #cfd8dc !important;
+}
+
+.education-section ul {
+  font-size: 1rem;
+  margin: 0.1rem;
+}
+
+.education-section li {
+  list-style-type: none;
+  margin: 0.5rem;
+}
+/* border-style: solid; */
+/* End CSS for education section */
