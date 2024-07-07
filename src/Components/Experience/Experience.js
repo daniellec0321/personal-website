@@ -1,15 +1,7 @@
 import React from "react";
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import fileSaver from 'file-saver';
-
-const saveFile = () => {
-  fileSaver.saveAs(
-    "../Header/Header.js",
-    "resume.js"
-  );
-}
-// <button className="resume" onClick={saveFile}>Download Resume</button>
+import resume from '../../Resources/resume.pdf';
 
 function Experience() {
   return (
@@ -18,7 +10,13 @@ function Experience() {
     <div className="page">
       <h2>My Experience</h2>
       <div className="resume-content">
-        <a href="../../resources/resume.pdf">Download CV</a>
+        <a
+          href={resume}
+          download="Danielle Croft Resume"
+          target="_blank"
+          rel="noreferrer"
+          style={{color: "white"}}
+        >Download Resume</a>
       </div>
       <h4>Below is a detailed list of the jobs I have held.</h4>
     </div>
