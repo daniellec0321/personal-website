@@ -217,7 +217,8 @@ nav a {
   background-color: #433f5e;
   text-decoration: none;
   padding: 1rem;
-  margin: 1%;
+  margin: 1rem;
+  margin-bottom: 4rem;
   color: #cfd8dc !important;
 }
 
@@ -225,4 +226,8 @@ nav a {
   padding-left: 2rem;
   padding-right: 2rem;
   margin: 0%;
+}
+
+.resume-section i {
+  padding: 0%;
 }
