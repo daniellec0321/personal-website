@@ -9,6 +9,9 @@ function Projects() {
     <div className="page">
       <h1>Projects Page</h1>
       <ul>
+        <li>PATENT!!!!!</li>
+        <li>personal website</li>
+        <li>bone quotes website</li>
         <li>Hacking Freecell</li>
         <li>Bathroom Queueing</li>
         <li>AI project (face id)</li>
