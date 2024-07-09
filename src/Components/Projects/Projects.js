@@ -7,25 +7,8 @@ function Projects() {
     <>
     <Header />
     <div className="page">
-      <h1>Projects Page</h1>
-      <ul>
-        <li>PATENT!!!!!</li>
-        <li>personal website</li>
-        <li>bone quotes website</li>
-        <li>Hacking Freecell</li>
-        <li>Bathroom Queueing</li>
-        <li>AI project (face id)</li>
-        <li>modern web dev project this one kinda sucked maybe dont include this one</li>
-        <li>distsys project, distributed hash table</li>
-        <li>neural net project handwriting recognition</li>
-        <li>databases project</li>
-        <li>paradigms project (this one was also bad)</li>
-        <li>theory of computing things?</li>
-        <li>data structures project, wordle solver</li>
-        <li>embedded systems project that i did with sofia</li>
-        <li>logic design project?</li>
-        <li>fund comp final project maybe</li>
-      </ul>
+      <h2>My Projects & Patents</h2>
+      <h4>This page is currently a work in progress. Come back soon to see my projects and patents! :D</h4>
     </div>
     <Footer />
     </>
