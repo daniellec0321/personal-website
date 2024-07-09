@@ -222,6 +222,10 @@ nav a {
   color: #cfd8dc !important;
 }
 
+.resume-section:nth-child(odd) {
+  background-color: #595763;
+}
+
 .resume-section * {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -231,3 +235,8 @@ nav a {
 .resume-section i {
   padding: 0%;
 }
+
+.resume-section h4 {
+  text-align: justify;
+}
+/* End CSS for experience section */
