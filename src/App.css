@@ -75,10 +75,10 @@ nav a {
 }
 
 .experienceLink {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/rounded-profile-photo.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/fancy-boeing-icon.jpg");
 }
 .experienceLink:hover {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/rounded-profile-photo.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/fancy-boeing-icon.jpg");
 }
 
 .educationLink {
