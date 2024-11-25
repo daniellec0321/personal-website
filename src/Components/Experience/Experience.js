@@ -20,6 +20,16 @@ function Experience() {
       </div>
 
       <div className="resume-section">
+        <h2>The Boeing Company - <i>Software Engineer</i></h2>
+        <p style={{color: "lightgray", fontStyle: "italic"}}>Hazelwood, Missouri</p>
+        <p style={{color: "lightgray"}}>August 2024 - Present</p>
+        <br />
+        <h4>I joined the Battlespace Simulation and Management sector of Boeing. Within that sector, I work on the F-15 International program where
+          we deliver F-15 simulators to customers outside of the US.
+        </h4>
+      </div>
+
+      <div className="resume-section">
         <h2>University of Notre Dame - <i>Teaching Assistant for Systems Programming</i></h2>
         <p style={{color: "lightgray", fontStyle: "italic"}}>South Bend, Indiana</p>
         <p style={{color: "lightgray"}}>January 2023 - May 2023, January 2024 - May 2024</p>
