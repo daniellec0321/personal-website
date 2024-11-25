@@ -240,3 +240,43 @@ nav a {
   text-align: justify;
 }
 /* End CSS for experience section */
+
+/* Start CSS for projects section */
+.project-button {
+  background-size: cover;
+  background-color: #433f5e;
+  border-radius: 5%;
+  text-decoration: none;
+  color: #cfd8dc !important;
+  font-family: Consolas;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+.project-button:hover,
+.project-button:focus {
+  background-color: #766fa3;
+}
+.project-button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+.project-button:active {
+  box-shadow: none;
+}
+/* End CSS for projects section */
