@@ -14,9 +14,9 @@ function Projects() {
         <HashLink smooth to="/projects#patent" className="projects-patentLink">Patent</HashLink>
         <HashLink smooth to="/projects#personal-website" className="projects-patentLink">Personal Website</HashLink>
         <HashLink smooth to="/projects#hacking-freecell" className="projects-patentLink">Hacking Freecell</HashLink>
-        <HashLink smooth to="/projects#restroom-queueing" className="projects-patentLink">Embedded System for Restroom Queue</HashLink>
-        <HashLink smooth to="/projects#face-id" className="projects-patentLink">Face ID</HashLink>
-        <HashLink smooth to="/projects#hashtable" className="projects-patentLink">Distributed HashTable</HashLink>
+        <HashLink smooth to="/projects#restroom-queueing" className="projects-restroomQueueing">Embedded System for Restroom Queue</HashLink>
+        <HashLink smooth to="/projects#face-id" className="projects-faceID">Face ID</HashLink>
+        <HashLink smooth to="/projects#hashtable" className="projects-hashtable">Distributed HashTable</HashLink>
         <HashLink smooth to="/projects#signature" className="projects-patentLink">Genuine Signature Recognition</HashLink>
         <HashLink smooth to="/projects#database" className="projects-patentLink">Database for Cultivate Food Rescue</HashLink>
         <HashLink smooth to="/projects#wordle-solver" className="projects-patentLink">Wordle Solver</HashLink>

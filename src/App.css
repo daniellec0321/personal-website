@@ -287,7 +287,28 @@ nav a {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/scurve.png");
 }
 
-.projects-patentLink {
+.projects-restroomQueueing {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/raspberry-pi-4.jpg");
+}
+.projects-restroomQueueing:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/raspberry-pi-4.jpg");
+}
+
+.projects-faceID {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/neural-network.png");
+}
+.projects-faceID:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/neural-network.png");
+}
+
+.projects-hashtable {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("images/kidNamedFinger.png");
+}
+.projects-hashtable:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/kidNamedFinger.png");
+}
+
+.projects-patentLink, .projects-restroomQueueing, .projects-faceID, .projects-hashtable {
   background-position: center;
   background-size: cover;
   background-color: #433f5e;
@@ -300,7 +321,7 @@ nav a {
   color: #cfd8dc !important;
 }
 
-.projects-patentLink:hover {
+.projects-patentLink:hover, .projects-restroomQueueing:hover, .projects-faceID:hover, .projects-hashtable:hover {
   background-color: #766fa3;
 }
 /* End CSS for projects section */
